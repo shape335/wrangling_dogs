@@ -1,4 +1,5 @@
-# wrangling_dogs
+# Wrangling Tweets from WeRateDogs Account
+by Shan Jafri
 
 In a world where data is abundent gathering and cleaning data is necessary for any data scientist to extract valuable insights. The focus of this project is to gather data from multiple sources, assess dirty data and then clean the data. The last step of the project is to show several insights from the clean data set.
 
@@ -36,3 +37,9 @@ Only interested in unique ratings, no retweets
 Drop unnecessary columns and NaN rows
 retweeted_status_id/user_id should be dropped
 Cleaning tidy data issues first is often the best way to start. When structral data issues are solved, cleaning quality data issues become simpler.
+
+# Conclusion
+
+Data wrangling skills are fundmental to anyone working with data. Nearly 80% of a data scientist time is spent wrangling data to ensure a smooth and clean visual and statistical analysis. 
+
+The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangle_report.ipynb)
