@@ -11,20 +11,21 @@ The WeRateDogs twitter archive that was provided by Udacity as a csv file. The i
 The gathered data has to be assessed for the range of the cleaning required. When assessing the gathered data, the types of cleaning is broken into two categories, tidy and dirty data issues.
 
 # Quality
-## Twitter_archive
+### Twitter_archive
 tweet_id should be a string instead of an integer
 timestamp column should be datetime data type
 'Name' columns have incorrect names like 'a', 'such', 'None'
 rename columns 'text' = 'tweet_text', 'name' = 'dog_name', 'source' = 'source_application'
 in_reply_to_status_id/user_id, retweeted_status_id/user_id should be srings instead of float
 ratings_numerator/denominator, retweets, and favorites should be integers instead of floats
-Image_prediction
+
+### Image_prediction
 Tweet_id should be a string instead of an integer
 Missing values from images dataset only 2075 entires
 Some tweet_ids have the same jpg_url
 Source columncan be cleaned
 
-## json dataframe
+### json dataframe
 remove any duplicate tweet_id's
 
 # Tidiness
