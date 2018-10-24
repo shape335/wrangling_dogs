@@ -10,7 +10,7 @@ The WeRateDogs twitter archive that was provided by Udacity as a csv file. The i
 # Assess
 The gathered data has to be assessed for the range of the cleaning required. When assessing the gathered data, the types of cleaning is broken into two categories, tidy and dirty data issues.
 
-# Quality
+## Quality
 ### Twitter_archive
 tweet_id should be a string instead of an integer
 timestamp column should be datetime data type
@@ -28,7 +28,7 @@ Source columncan be cleaned
 ### json dataframe
 remove any duplicate tweet_id's
 
-# Tidiness
+## Tidiness
 Merge all data tables together
 Dog description in columns instead of rows
 Too many columns in image prediciton could condense
