@@ -4,7 +4,7 @@ by Shan Jafri
 The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangle_report.ipynb)
 
 # Introduction
-In a world where data is abundent gathering and cleaning data is necessary for any data scientist to extract valuable insights. The focus of this project is to gather data from multiple sources, assess dirty data and then clean the data. The last step of the project is to show several insights from the clean data set.
+In a world where data is abundent, gathering and cleaning data is necessary for any data scientist to extract valuable insights. The focus of this project is to gather data from multiple sources, assess dirty data and then clean the data. The last step of the project is to show several insights from the clean data set.
 
 # Gather
 
