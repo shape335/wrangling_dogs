@@ -12,10 +12,10 @@ In this project, data was gathered from three sources:
 
 - The WeRateDogs twitter archive that was provided by Udacity as a csv file. 
 - The image prediction file that was hosted by Udacity serves and downloaded programmatically using request libary 
-- Using twitters API and python's tweepy library, any missing information from WeRateDogs twiiter archive such as retweet counts and favorite counts. The tweet IDs in the WeRateDogs Twitter archive will be use to query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file. Each tweet's JSON data should be written to its own line. Then we will read this .txt file line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count.
+- Using twitters API and python's tweepy library, any missing information from WeRateDogs twiiter archive such as retweet counts and favorite counts are gathered. The tweet IDs in the WeRateDogs Twitter archive will be use to query the Twitter API for each JSON structure tweet using Python's Tweepy library and in a file called tweet_json.txt file. Each JSON formatted tweet should be written to its own line in a text file and then read line by line into a pandas DataFrame.
 
 # Assess
-The gathered data has to be assessed for the range of the cleaning required. When assessing the gathered data, the types of cleaning is broken into two categories, tidy and dirty data issues. Below are each data issue that need to be address.
+The gathered data has to be assessed for the range of the cleaning issues required. When assessing, the type of cleaning is broken into two categories, tidy and dirty data issues. Below are each data issue that need to be address.
 
 ## Quality
 
@@ -48,6 +48,6 @@ Cleaning tidy data issues first is often the best way to start. When structral d
 
 # Conclusion
 
-Data wrangling skills are fundmental to anyone working with data. Nearly 80% of a data scientist time is spent wrangling data to ensure a smooth and clean visual and statistical analysis. 
+Data wrangling skills are fundmental to anyone working with data. Nearly 80% of a data scientist time is spent wrangling data. If data wrangling is properly done, tons of time can be saved during analysis.
 
 The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangle_report.ipynb)
