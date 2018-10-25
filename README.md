@@ -4,13 +4,15 @@ by Shan Jafri
 The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangle_report.ipynb)
 
 # Introduction
-In a world where data is abundent, gathering and cleaning data is necessary for any data scientist to extract valuable insights. The focus of this project is to gather data from multiple sources, assess dirty data and then clean the data. The last step of the project is to show several insights from the clean data set.
+In a world where data is abundent, gathering and cleaning data is necessary for any data scientist to extract valuable insights. The focus of this project is to gather data from multiple sources, assess dirty data and then clean the data. The final part of the project runs an analysis on the clean dataset. 
 
 # Gather
 
 In this project, data was gathered from three sources:
 
-The WeRateDogs twitter archive that was provided by Udacity as a csv file. The image prediction file that was hosted by Udacity serves and downloaded programmatically using request libary Using twitters API and python's tweepy library, any missing information from WeRateDogs twiiter archive such as retweet counts and favorite counts. The tweet IDs in the WeRateDogs Twitter archive will be use to query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file. Each tweet's JSON data should be written to its own line. Then we will read this .txt file line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count.
+- The WeRateDogs twitter archive that was provided by Udacity as a csv file. 
+- The image prediction file that was hosted by Udacity serves and downloaded programmatically using request libary 
+- Using twitters API and python's tweepy library, any missing information from WeRateDogs twiiter archive such as retweet counts and favorite counts. The tweet IDs in the WeRateDogs Twitter archive will be use to query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file. Each tweet's JSON data should be written to its own line. Then we will read this .txt file line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count.
 
 # Assess
 The gathered data has to be assessed for the range of the cleaning required. When assessing the gathered data, the types of cleaning is broken into two categories, tidy and dirty data issues. Below are each data issue that need to be address.
