@@ -1,7 +1,7 @@
 # Wrangling Tweets from WeRateDogs Account
 by Shan Jafri
 
-The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangle_report.ipynb)
+The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/act_report.ipynb)
 
 # Introduction
 In a world where data is abundent, gathering and cleaning data is necessary for any data scientist to extract valuable insights. The focus of this project is to gather data from multiple sources, assess dirty data and then clean the data. The final part of the project runs an analysis on the clean dataset. 
@@ -50,4 +50,4 @@ Cleaning tidy data issues first is often the best way to start. When structral d
 
 Data wrangling skills are fundmental to anyone working with data. Nearly 80% of a data scientist time is spent wrangling data. If data wrangling is properly done, tons of time can be saved during analysis.
 
-The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangle_report.ipynb)
+The wrangling report and analysis report are [here](https://github.com/shape335/wrangling_dogs/blob/master/wrangling_act.ipynb) and [here](https://github.com/shape335/wrangling_dogs/blob/master/act_report.ipynb)
