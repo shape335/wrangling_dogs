@@ -11,11 +11,11 @@ In a world where data is abundent, gathering and cleaning data is necessary for 
 In this project, data was gathered from three sources:
 
 - The WeRateDogs twitter archive that was provided by Udacity as a csv file. 
-- The image prediction file that was hosted by Udacity serves and downloaded programmatically using request libary 
+- The image prediction file that was hosted by Udacity serves and downloaded programmatically using request library 
 - Using twitters API and python's tweepy library, any missing information from WeRateDogs twiiter archive such as retweet counts and favorite counts are gathered. The tweet IDs in the WeRateDogs Twitter archive will be use to query the Twitter API for each JSON structure tweet using Python's Tweepy library and in a file called tweet_json.txt file. Each JSON formatted tweet should be written to its own line in a text file and then read line by line into a pandas DataFrame.
 
 # Assess
-The gathered data has to be assessed for the range of the cleaning issues required. When assessing, the type of cleaning is broken into two categories, tidy and dirty data issues. Below are each data issue that need to be address.
+The gathered data has to be assessed for the range of the cleaning issues required. When assessing, the type of cleaning is broken into two categories, tidy and quality data issues. Below are each data issue that need to be address.
 
 ## Quality
 
